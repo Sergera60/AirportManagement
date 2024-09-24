@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd8aa600-08e7-428d-9b46-44b8f073a424" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/AirportManagement/CopilotIndices/0.2.1634.3922/SemanticSymbols.db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/AirportManagement/CopilotIndices/0.2.1634.3922/SemanticSymbols.db-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/AirportManagement/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/AirportManagement/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/AirportManagement/FileContentIndex/3e5362dd-3c23-4247-b844-ba1644ccdb7d.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/AirportManagement/FileContentIndex/7d6d2bcb-8b8f-4fc4-ace1-2505b3e332ef.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/AirportManagement/FileContentIndex/ce03d4b1-4b08-42b5-ba5c-44b8418aec37.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/AirportManagement/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/AirportManagement/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/AirportManagement/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/AirportManagement/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/AirportManagement/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/AirportManagement/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.ApplicationCore/Domain/Flight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AM.ApplicationCore/Domain/Flight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.ApplicationCore/Domain/Traveller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AM.ApplicationCore/Domain/Traveller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.ApplicationCore/bin/Debug/net8.0/AM.ApplicationCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AM.ApplicationCore/bin/Debug/net8.0/AM.ApplicationCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.ApplicationCore/bin/Debug/net8.0/AM.ApplicationCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AM.ApplicationCore/bin/Debug/net8.0/AM.ApplicationCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.ApplicationCore/obj/Debug/net8.0/AM.ApplicationCore.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AM.ApplicationCore/obj/Debug/net8.0/AM.ApplicationCore.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.ApplicationCore/obj/Debug/net8.0/AM.ApplicationCore.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AM.ApplicationCore/obj/Debug/net8.0/AM.ApplicationCore.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.ApplicationCore/obj/Debug/net8.0/AM.ApplicationCore.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AM.ApplicationCore/obj/Debug/net8.0/AM.ApplicationCore.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.ApplicationCore/obj/Debug/net8.0/AM.ApplicationCore.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AM.ApplicationCore/obj/Debug/net8.0/AM.ApplicationCore.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.ApplicationCore/obj/Debug/net8.0/AM.ApplicationCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AM.ApplicationCore/obj/Debug/net8.0/AM.ApplicationCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.ApplicationCore/obj/Debug/net8.0/AM.ApplicationCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AM.ApplicationCore/obj/Debug/net8.0/AM.ApplicationCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.ApplicationCore/obj/Debug/net8.0/ref/AM.ApplicationCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AM.ApplicationCore/obj/Debug/net8.0/ref/AM.ApplicationCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.ApplicationCore/obj/Debug/net8.0/refint/AM.ApplicationCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AM.ApplicationCore/obj/Debug/net8.0/refint/AM.ApplicationCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.UI.Console/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AM.UI.Console/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.UI.Console/bin/Debug/net8.0/AM.ApplicationCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AM.UI.Console/bin/Debug/net8.0/AM.ApplicationCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.UI.Console/bin/Debug/net8.0/AM.ApplicationCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AM.UI.Console/bin/Debug/net8.0/AM.ApplicationCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.UI.Console/bin/Debug/net8.0/AM.UI.Console.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AM.UI.Console/bin/Debug/net8.0/AM.UI.Console.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.UI.Console/bin/Debug/net8.0/AM.UI.Console.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AM.UI.Console/bin/Debug/net8.0/AM.UI.Console.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.UI.Console/bin/Debug/net8.0/AM.UI.Console.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AM.UI.Console/bin/Debug/net8.0/AM.UI.Console.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/AM.UI.Console.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/AM.UI.Console.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/AM.UI.Console.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/AM.UI.Console.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/AM.UI.Console.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/AM.UI.Console.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/AM.UI.Console.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/AM.UI.Console.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/AM.UI.Console.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/AM.UI.Console.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/AM.UI.Console.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/AM.UI.Console.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/ref/AM.UI.Console.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/ref/AM.UI.Console.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/refint/AM.UI.Console.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AM.UI.Console/obj/Debug/net8.0/refint/AM.UI.Console.dll" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2mWB2fXo3mmtNygkFGPM0KPNoUb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd8aa600-08e7-428d-9b46-44b8f073a424" name="Changes" comment="" />
+      <created>1727182249740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727182249740</updated>
+      <workItem from="1727182253591" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

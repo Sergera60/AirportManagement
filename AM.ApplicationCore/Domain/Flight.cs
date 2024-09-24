@@ -32,9 +32,14 @@ namespace AM.ApplicationCore.Domain
             Plane = plane;
             this.passengers = passengers;
         }
+        public Flight()
+        {
+        }   
 
 
-        
+
+
+
 
 
     }

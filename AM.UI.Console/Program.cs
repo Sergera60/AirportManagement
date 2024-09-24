@@ -3,11 +3,38 @@
 
 
 using AM.ApplicationCore.Domain;
+using AM.ApplicationCore.Services;
 
 Console.WriteLine("Hello, World!");
 
-Plane plane = new Plane { Capacity=100 ,PlaneType=PlaneType.Boring , ManufactureDate = DateTime.Now,
-    PlaneId = 1
 
-}; 
-Console.WriteLine(plane.ToString());
+
+
+FlightMethods flightMethods = new FlightMethods();
+
+// Assign the listFlights from TestData to the Flights property of FlightMethods
+flightMethods.Flights = TestData.listFlights;
+
+
+Console.WriteLine(flightMethods);
+
+Console.WriteLine("-----------------------------------------------");
+
+
+
+
+
+
+
+
+
+Console.WriteLine("-------------------------------------------------");
+
+var flightsss = flightMethods.GetFlights("Destination", "Paris");
+
+
+foreach (var item in flightsss)
+{
+    Console.WriteLine(item.ToString());
+}
+

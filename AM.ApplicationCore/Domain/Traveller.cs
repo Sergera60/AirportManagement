@@ -28,8 +28,10 @@ namespace AM.ApplicationCore.Domain
             HealthInformation = healthInformation;
             Nationality = nationality;
 
-        }
 
+        }
+public Traveller() : base()
+        { }
 
         public override void PassengerType()
         {

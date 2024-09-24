@@ -16,3 +16,4 @@ C:\Users\moham\OneDrive\Bureau\.netEsprit\AirportManagement\AM.UI.Console\obj\De
 C:\Users\moham\OneDrive\Bureau\.netEsprit\AirportManagement\AM.UI.Console\obj\Debug\net8.0\AM.UI.Console.pdb
 C:\Users\moham\OneDrive\Bureau\.netEsprit\AirportManagement\AM.UI.Console\obj\Debug\net8.0\AM.UI.Console.genruntimeconfig.cache
 C:\Users\moham\OneDrive\Bureau\.netEsprit\AirportManagement\AM.UI.Console\obj\Debug\net8.0\ref\AM.UI.Console.dll
+C:\Users\moham\OneDrive\Bureau\.netEsprit\AirportManagement\AM.UI.Console\obj\Debug\net8.0\AM.UI.Console.sourcelink.json
