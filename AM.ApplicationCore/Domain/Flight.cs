@@ -12,6 +12,8 @@ namespace AM.ApplicationCore.Domain
         public DateTime EffectiveArrival { get; set; }
         public int EstimatedDuration { get; set; }
         public Plane Plane { get; set; }
+        public string Airline { get; set; }
+
         public ICollection<Passenger> passengers { get; set; }
 
 

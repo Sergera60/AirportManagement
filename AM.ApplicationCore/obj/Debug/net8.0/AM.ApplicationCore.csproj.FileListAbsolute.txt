@@ -10,3 +10,4 @@ C:\Users\moham\OneDrive\Bureau\.netEsprit\AirportManagement\AM.ApplicationCore\o
 C:\Users\moham\OneDrive\Bureau\.netEsprit\AirportManagement\AM.ApplicationCore\obj\Debug\net8.0\AM.ApplicationCore.pdb
 C:\Users\moham\OneDrive\Bureau\.netEsprit\AirportManagement\AM.ApplicationCore\obj\Debug\net8.0\ref\AM.ApplicationCore.dll
 C:\Users\moham\OneDrive\Bureau\.netEsprit\AirportManagement\AM.ApplicationCore\obj\Debug\net8.0\AM.ApplicationCore.sourcelink.json
+C:\Users\moham\OneDrive\Bureau\.netEsprit\AirportManagement\AM.ApplicationCore\obj\Debug\net8.0\AM.ApplicationCore.csproj.AssemblyReference.cache

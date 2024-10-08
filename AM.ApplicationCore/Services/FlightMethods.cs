@@ -135,7 +135,7 @@ namespace AM.ApplicationCore.Services
                                     .OrderBy(p => p.BirthDate)
                                     .Take(3)
                                     .ToList();
-        }
+        } 
         public void DestinationGroupedFlights()
         {
             // Group flights by destination
