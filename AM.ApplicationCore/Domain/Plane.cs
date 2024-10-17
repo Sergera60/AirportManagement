@@ -1,4 +1,5 @@
-﻿using System.Net.Mail;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Net.Mail;
 using System.Security.Cryptography;
 
 namespace AM.ApplicationCore.Domain
@@ -6,11 +7,13 @@ namespace AM.ApplicationCore.Domain
 
     public class Plane
     {
+        [Key]
+        [Range(1, int.MaxValue)]
         public int PlaneId { get; set; }
         public PlaneType PlaneType { get; set; }
         public int Capacity { get; set; }
         public DateTime ManufactureDate { get; set; }        
-        ICollection<Flight> flight { get; set; }
+       public ICollection<Flight> flight { get; set; }
 
         public override string ToString()
         {

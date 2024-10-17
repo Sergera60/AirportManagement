@@ -1,4 +1,5 @@
 ﻿using AM.ApplicationCore.Domain;
+using AM.Infrastructure.Configurations;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -28,6 +29,25 @@ namespace AM.Infrastructure
                                         Integrated Security=true ;
                                         MultipleActiveResultSets=True");
             base.OnConfiguring(optionsBuilder);
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // Apply the PlaneConfiguration
+            modelBuilder.ApplyConfiguration(new PlaneConfiguration());
+
+            // Apply the FlightConfiguration
+            modelBuilder.ApplyConfiguration(new FlightConfiguration());
+            modelBuilder.ApplyConfiguration(new PassengerConfiguration());
+
+            base.OnModelCreating(modelBuilder);
+        }
+        protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
+        {
+            // Configure all DateTime properties to use the "date" type in the database
+            configurationBuilder.Properties<DateTime>()
+                .HaveColumnType("date");
+
+            base.ConfigureConventions(configurationBuilder);
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using System.Runtime.InteropServices;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.JavaScript;
 using System.Security.Cryptography.X509Certificates;
 
@@ -7,12 +9,26 @@ namespace AM.ApplicationCore.Domain
 
     public class Passenger
     {
-        public int ID { get; set; }
+        // public int ID { get; set; }
+        [Display(Name = "Date of Birth")]
+        [DataType(DataType.Date)]
         public DateTime BirthDate { get; set; }
+        [Key]
+        [StringLength(7)]
         public string PassportNumber { get; set; }
+
+        [DataType(DataType.EmailAddress)]
+        [RegularExpression(@"^[^@\s]+@[^@\s]+\.[^@\s]+$", ErrorMessage = "Invalid Email Address")]
         public string EmailAddress { get; set; }
+
+        public FullName FullName { get; set; }
+
+        [MinLength(3, ErrorMessage = "First Name must be at least 3 characters long")]
+        [MaxLength(25, ErrorMessage = "First Name cannot exceed 25 characters")]
         public string FirstName { get; set; }
         public string LastName { get; set; }
+
+        [RegularExpression(@"\d{8}", ErrorMessage = "TelNumber must be exactly 8 digits")]
         public string TelNumber { get; set; }
         public ICollection<Flight> flights { get; set; }
 
