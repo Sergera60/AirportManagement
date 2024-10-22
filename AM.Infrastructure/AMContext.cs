@@ -30,10 +30,15 @@ namespace AM.Infrastructure
                                         MultipleActiveResultSets=True");
             base.OnConfiguring(optionsBuilder);
         }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder) //fluentAPI 
         {
             // Apply the PlaneConfiguration
             modelBuilder.ApplyConfiguration(new PlaneConfiguration());
+/* 2nd method
+            modelBuilder.Entity<Plane>().HasKey(p => p.PlaneId);
+            modelBuilder.Entity<Plane>().ToTable("MyPlanes");
+            modelBuilder.Entity<Plane>().Property(p => p.Capacity)
+                .HasColumnName("PlaneCapacity");*/
 
             // Apply the FlightConfiguration
             modelBuilder.ApplyConfiguration(new FlightConfiguration());

@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Migrations\\20241017192806_UpdateDateTimeToDate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AM.Infrastructure\\Migrations\\20241017192806_UpdateDateTimeToDate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2817EB10-F967-43CB-994D-F36859635B71}|AM.Infrastructure\\AM.Infrastructure.csproj|c:\\users\\moham\\onedrive\\bureau\\.netesprit\\airportmanagement\\am.infrastructure\\amcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2817EB10-F967-43CB-994D-F36859635B71}|AM.Infrastructure\\AM.Infrastructure.csproj|solutionrelative:am.infrastructure\\amcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Migrations\\20241017192621_ConfigurePlaneAndFlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AM.Infrastructure\\Migrations\\20241017192621_ConfigurePlaneAndFlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ADB0AB87-9F52-4C20-885D-FB9BCC83E5FC}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\moham\\onedrive\\bureau\\.netesprit\\airportmanagement\\am.applicationcore\\domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADB0AB87-9F52-4C20-885D-FB9BCC83E5FC}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,32 +11,28 @@
       "RelativeMoniker": "D:0:0:{ADB0AB87-9F52-4C20-885D-FB9BCC83E5FC}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2817EB10-F967-43CB-994D-F36859635B71}|AM.Infrastructure\\AM.Infrastructure.csproj|c:\\users\\moham\\onedrive\\bureau\\.netesprit\\airportmanagement\\am.infrastructure\\migrations\\amcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2817EB10-F967-43CB-994D-F36859635B71}|AM.Infrastructure\\AM.Infrastructure.csproj|solutionrelative:am.infrastructure\\migrations\\amcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADB0AB87-9F52-4C20-885D-FB9BCC83E5FC}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\moham\\onedrive\\bureau\\.netesprit\\airportmanagement\\am.applicationcore\\domain\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADB0AB87-9F52-4C20-885D-FB9BCC83E5FC}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Migrations\\20241017192152_ConfigurePlaneAndFlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AM.Infrastructure\\Migrations\\20241017192152_ConfigurePlaneAndFlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADB0AB87-9F52-4C20-885D-FB9BCC83E5FC}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\moham\\onedrive\\bureau\\.netesprit\\airportmanagement\\am.applicationcore\\domain\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADB0AB87-9F52-4C20-885D-FB9BCC83E5FC}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2817EB10-F967-43CB-994D-F36859635B71}|AM.Infrastructure\\AM.Infrastructure.csproj|c:\\users\\moham\\onedrive\\bureau\\.netesprit\\airportmanagement\\am.infrastructure\\configurations\\flightconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2817EB10-F967-43CB-994D-F36859635B71}|AM.Infrastructure\\AM.Infrastructure.csproj|solutionrelative:am.infrastructure\\configurations\\flightconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2817EB10-F967-43CB-994D-F36859635B71}|AM.Infrastructure\\AM.Infrastructure.csproj|c:\\users\\moham\\onedrive\\bureau\\.netesprit\\airportmanagement\\am.infrastructure\\amcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2817EB10-F967-43CB-994D-F36859635B71}|AM.Infrastructure\\AM.Infrastructure.csproj|solutionrelative:am.infrastructure\\amcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2817EB10-F967-43CB-994D-F36859635B71}|AM.Infrastructure\\AM.Infrastructure.csproj|c:\\users\\moham\\onedrive\\bureau\\.netesprit\\airportmanagement\\am.infrastructure\\configurations\\planeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2817EB10-F967-43CB-994D-F36859635B71}|AM.Infrastructure\\AM.Infrastructure.csproj|solutionrelative:am.infrastructure\\configurations\\planeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2817EB10-F967-43CB-994D-F36859635B71}|AM.Infrastructure\\AM.Infrastructure.csproj|c:\\users\\moham\\onedrive\\bureau\\.netesprit\\airportmanagement\\am.infrastructure\\am.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2817EB10-F967-43CB-994D-F36859635B71}|AM.Infrastructure\\AM.Infrastructure.csproj|solutionrelative:am.infrastructure\\am.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2817EB10-F967-43CB-994D-F36859635B71}|AM.Infrastructure\\AM.Infrastructure.csproj|c:\\users\\moham\\onedrive\\bureau\\.netesprit\\airportmanagement\\am.infrastructure\\configurations\\passengerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2817EB10-F967-43CB-994D-F36859635B71}|AM.Infrastructure\\AM.Infrastructure.csproj|solutionrelative:am.infrastructure\\configurations\\passengerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2817EB10-F967-43CB-994D-F36859635B71}|AM.Infrastructure\\AM.Infrastructure.csproj|c:\\users\\moham\\onedrive\\bureau\\.netesprit\\airportmanagement\\am.infrastructure\\configurations\\flightconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2817EB10-F967-43CB-994D-F36859635B71}|AM.Infrastructure\\AM.Infrastructure.csproj|solutionrelative:am.infrastructure\\configurations\\flightconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADB0AB87-9F52-4C20-885D-FB9BCC83E5FC}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\moham\\onedrive\\bureau\\.netesprit\\airportmanagement\\am.applicationcore\\domain\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADB0AB87-9F52-4C20-885D-FB9BCC83E5FC}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADB0AB87-9F52-4C20-885D-FB9BCC83E5FC}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\moham\\onedrive\\bureau\\.netesprit\\airportmanagement\\am.applicationcore\\domain\\fullname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADB0AB87-9F52-4C20-885D-FB9BCC83E5FC}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\fullname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,79 +51,70 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20241017192806_UpdateDateTimeToDate.cs",
-              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Migrations\\20241017192806_UpdateDateTimeToDate.cs",
-              "RelativeDocumentMoniker": "AM.Infrastructure\\Migrations\\20241017192806_UpdateDateTimeToDate.cs",
-              "ToolTip": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Migrations\\20241017192806_UpdateDateTimeToDate.cs",
-              "RelativeToolTip": "AM.Infrastructure\\Migrations\\20241017192806_UpdateDateTimeToDate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T19:28:06.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20241017192621_ConfigurePlaneAndFlight.cs",
-              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Migrations\\20241017192621_ConfigurePlaneAndFlight.cs",
-              "RelativeDocumentMoniker": "AM.Infrastructure\\Migrations\\20241017192621_ConfigurePlaneAndFlight.cs",
-              "ToolTip": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Migrations\\20241017192621_ConfigurePlaneAndFlight.cs",
-              "RelativeToolTip": "AM.Infrastructure\\Migrations\\20241017192621_ConfigurePlaneAndFlight.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T19:26:22.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20241017192152_ConfigurePlaneAndFlight.cs",
-              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Migrations\\20241017192152_ConfigurePlaneAndFlight.cs",
-              "RelativeDocumentMoniker": "AM.Infrastructure\\Migrations\\20241017192152_ConfigurePlaneAndFlight.cs",
-              "ToolTip": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Migrations\\20241017192152_ConfigurePlaneAndFlight.cs",
-              "RelativeToolTip": "AM.Infrastructure\\Migrations\\20241017192152_ConfigurePlaneAndFlight.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T19:21:52.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AM.Infrastructure",
-              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "AM.Infrastructure\\AM.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
-              "RelativeToolTip": "AM.Infrastructure\\AM.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-16T15:36:10.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Flight.cs",
               "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.ApplicationCore\\Domain\\Flight.cs",
               "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Flight.cs",
               "ToolTip": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.ApplicationCore\\Domain\\Flight.cs",
               "RelativeToolTip": "AM.ApplicationCore\\Domain\\Flight.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T15:34:02.936Z",
+              "WhenOpened": "2024-10-22T10:22:54.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "Plane.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.ApplicationCore\\Domain\\Plane.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Plane.cs",
+              "ToolTip": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.ApplicationCore\\Domain\\Plane.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Plane.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T10:22:44.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlaneConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Configurations\\PlaneConfiguration.cs",
+              "RelativeDocumentMoniker": "AM.Infrastructure\\Configurations\\PlaneConfiguration.cs",
+              "ToolTip": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Configurations\\PlaneConfiguration.cs",
+              "RelativeToolTip": "AM.Infrastructure\\Configurations\\PlaneConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T08:30:50.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PassengerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Configurations\\PassengerConfiguration.cs",
+              "RelativeDocumentMoniker": "AM.Infrastructure\\Configurations\\PassengerConfiguration.cs",
+              "ToolTip": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Configurations\\PassengerConfiguration.cs",
+              "RelativeToolTip": "AM.Infrastructure\\Configurations\\PassengerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T08:30:45.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FlightConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Configurations\\FlightConfiguration.cs",
               "RelativeDocumentMoniker": "AM.Infrastructure\\Configurations\\FlightConfiguration.cs",
               "ToolTip": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Configurations\\FlightConfiguration.cs",
               "RelativeToolTip": "AM.Infrastructure\\Configurations\\FlightConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T15:20:01.45Z",
+              "WhenOpened": "2024-10-22T08:30:42.662Z",
               "EditorCaption": ""
             },
             {
@@ -150,74 +125,35 @@
               "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Passenger.cs",
               "ToolTip": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.ApplicationCore\\Domain\\Passenger.cs",
               "RelativeToolTip": "AM.ApplicationCore\\Domain\\Passenger.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T15:10:58.025Z",
+              "WhenOpened": "2024-10-22T08:22:24.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "FullName.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.ApplicationCore\\Domain\\FullName.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\FullName.cs",
+              "ToolTip": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.ApplicationCore\\Domain\\FullName.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Domain\\FullName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T08:22:15.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AMContext.cs",
               "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\AMContext.cs",
               "RelativeDocumentMoniker": "AM.Infrastructure\\AMContext.cs",
               "ToolTip": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\AMContext.cs",
               "RelativeToolTip": "AM.Infrastructure\\AMContext.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAYwDEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAA4wC4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T15:09:37.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AMContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Migrations\\AMContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "AM.Infrastructure\\Migrations\\AMContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Migrations\\AMContextModelSnapshot.cs",
-              "RelativeToolTip": "AM.Infrastructure\\Migrations\\AMContextModelSnapshot.cs",
-              "ViewState": "AgIAALsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T15:09:31.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Plane.cs",
-              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.ApplicationCore\\Domain\\Plane.cs",
-              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Plane.cs",
-              "ToolTip": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.ApplicationCore\\Domain\\Plane.cs",
-              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Plane.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T15:09:14.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PlaneConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Configurations\\PlaneConfiguration.cs",
-              "RelativeDocumentMoniker": "AM.Infrastructure\\Configurations\\PlaneConfiguration.cs",
-              "ToolTip": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.Infrastructure\\Configurations\\PlaneConfiguration.cs",
-              "RelativeToolTip": "AM.Infrastructure\\Configurations\\PlaneConfiguration.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T15:08:32.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Staff.cs",
-              "DocumentMoniker": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.ApplicationCore\\Domain\\Staff.cs",
-              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Staff.cs",
-              "ToolTip": "C:\\Users\\moham\\OneDrive\\Bureau\\.netEsprit\\AirportManagement\\AM.ApplicationCore\\Domain\\Staff.cs",
-              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Staff.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T15:07:30.943Z",
+              "WhenOpened": "2024-10-22T08:21:31.402Z",
               "EditorCaption": ""
             }
           ]

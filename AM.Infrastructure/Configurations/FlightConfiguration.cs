@@ -15,12 +15,15 @@ namespace AM.Infrastructure.Configurations
         {
             // Configure many-to-many relationship between Flight and Passenger
             builder.HasMany(f => f.passengers)
-                   .WithMany(p => p.flights);
+                   .WithMany(p => p.flights)
+                   .UsingEntity(t => t.ToTable("Reservations"));
 
             // Configure one-to-many relationship between Flight and Plane
             builder.HasOne(f => f.Plane)
                   .WithMany(p => p.flight)
-                 .HasForeignKey(f => f.PlaneId);
+                 .HasForeignKey(f => f.PlaneId)
+                 .IsRequired()
+                 .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }
