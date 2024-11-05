@@ -15,21 +15,23 @@ namespace AM.ApplicationCore.Domain
         public int EstimatedDuration { get; set; }
 
        
-        public Plane Plane { get; set; }
+        public virtual Plane Plane { get; set; }
         [ForeignKey("PlaneId")]
         public int PlaneId { get; set; }
         public string Airline { get; set; }
 
-        public ICollection<Passenger> passengers { get; set; }
+       // public ICollection<Passenger> passengers { get; set; }
+
+        public virtual ICollection<Ticket> Tickets { get; set; }
 
 
         public override string ToString()
         {
-            return $"Flight: {FlightId} {Destination}, Departure: {Departure}, FlightDate: {FlightDate}, EffectiveArrival: {EffectiveArrival}, EstimatedDuration: {EstimatedDuration}, Plane {Plane}, passengers {passengers}";
+            return $"Flight: {FlightId} {Destination}, Departure: {Departure}, FlightDate: {FlightDate}, EffectiveArrival: {EffectiveArrival}, EstimatedDuration: {EstimatedDuration}, Plane {Plane}";
         }
 
 
-        public Flight(string destination, string departure, DateTime flightDate, int flightId, DateTime effectiveArrival, int estimatedDuration, Plane plane, ICollection<Passenger> passengers)
+        public Flight(string destination, string departure, DateTime flightDate, int flightId, DateTime effectiveArrival, int estimatedDuration, Plane plane)
         {
             Destination = destination;
             Departure = departure;
@@ -38,7 +40,7 @@ namespace AM.ApplicationCore.Domain
             EffectiveArrival = effectiveArrival;
             EstimatedDuration = estimatedDuration;
             Plane = plane;
-            this.passengers = passengers;
+            //this.passengers = passengers;
         }
         public Flight()
         {

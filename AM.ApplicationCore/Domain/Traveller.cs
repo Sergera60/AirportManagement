@@ -23,7 +23,7 @@ namespace AM.ApplicationCore.Domain
 
 
         public Traveller(DateTime birthDate, string passportNumber, string emailAddress, string firstName, string lastName, string telNumber, ICollection<Flight> flights, string healthInformation, string nationality) :
-            base(birthDate, passportNumber, emailAddress, firstName, lastName, telNumber, flights)
+            base(birthDate, passportNumber, emailAddress, firstName, lastName, telNumber)
         {
             HealthInformation = healthInformation;
             Nationality = nationality;

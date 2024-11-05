@@ -30,14 +30,16 @@ namespace AM.ApplicationCore.Domain
 
         [RegularExpression(@"\d{8}", ErrorMessage = "TelNumber must be exactly 8 digits")]
         public string TelNumber { get; set; }
-        public ICollection<Flight> flights { get; set; }
+       // public ICollection<Flight> flights { get; set; }
+
+        public virtual ICollection<Ticket> Tickets { get; set; } 
 
 
         public override string ToString()
         {
             return $"Passenger: {FirstName} {LastName}, Passport: {PassportNumber}, Email: {EmailAddress}, Tel: {TelNumber}, BirthDate: {BirthDate.ToShortDateString()}";
         }
-        public Passenger(DateTime birthDate, string passportNumber, string emailAddress, string firstName, string lastName, string telNumber, ICollection<Flight> flights)
+        public Passenger(DateTime birthDate, string passportNumber, string emailAddress, string firstName, string lastName, string telNumber)
         {
             BirthDate = birthDate;
             PassportNumber = passportNumber;
@@ -45,7 +47,7 @@ namespace AM.ApplicationCore.Domain
             FirstName = firstName;
             LastName = lastName;
             TelNumber = telNumber;
-            this.flights = flights;
+           // this.flights = flights;
         }
         public Passenger()
         {

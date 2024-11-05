@@ -128,14 +128,14 @@ namespace AM.ApplicationCore.Services
         }
 
 
-        public List<Traveller> SeniorTravellers(Flight flight)
+       /* public List<Traveller> SeniorTravellers(Flight flight)
         {
             // Get all travellers and order them by birth date (oldest first)
-            return flight.passengers.OfType<Traveller>()
+            return flight.Passengers.OfType<Traveller>()
                                     .OrderBy(p => p.BirthDate)
                                     .Take(3)
                                     .ToList();
-        } 
+        } */
         public void DestinationGroupedFlights()
         {
             // Group flights by destination

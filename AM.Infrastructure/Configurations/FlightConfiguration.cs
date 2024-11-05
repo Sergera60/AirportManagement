@@ -14,9 +14,9 @@ namespace AM.Infrastructure.Configurations
         public void Configure(EntityTypeBuilder<Flight> builder)
         {
             // Configure many-to-many relationship between Flight and Passenger
-            builder.HasMany(f => f.passengers)
+          /*  builder.HasMany(f => f.passengers)
                    .WithMany(p => p.flights)
-                   .UsingEntity(t => t.ToTable("Reservations"));
+                   .UsingEntity(t => t.ToTable("Reservations"));*/
 
             // Configure one-to-many relationship between Flight and Plane
             builder.HasOne(f => f.Plane)

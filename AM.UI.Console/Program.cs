@@ -1,9 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
-
-
 using AM.ApplicationCore.Domain;
 using AM.ApplicationCore.Services;
+using AM.Infrastructure;
+using System.Numerics;
 
 Console.WriteLine("Hello, World!");
 
@@ -72,13 +71,13 @@ foreach (var flight in orderedFlights)
 }
 
 // Example 14 - Top 3 oldest travellers on a flight
-var seniorTravellers = flightMethods.SeniorTravellers(TestData.flight1);
+/*var seniorTravellers = flightMethods.SeniorTravellers(TestData.flight1);
 Console.WriteLine("\nTop 3 oldest travellers on flight1:");
 foreach (var traveller in seniorTravellers)
 {
     Console.WriteLine($"{traveller.FirstName} {traveller.LastName} - Birth Date: {traveller.BirthDate}");
 }
-
+*/
 // Example 15 - Group flights by destination and display details
 Console.WriteLine("\nFlights grouped by destination:");
 flightMethods.DestinationGroupedFlights();
@@ -128,3 +127,31 @@ Passenger passenger = new Passenger
 // Utilisation de la méthode d'extension UpperFullName
 string formattedName = passenger.UpperFullName();
 Console.WriteLine(formattedName); // Affiche : John Doe
+
+
+AMContext context = new AMContext();
+//generate a context.Flights.Add()
+
+
+/*context.Flights.Add(new Flight
+{
+    Destination = "Paris",
+    FlightDate = new DateTime(2022, 05, 01, 12, 10, 0),
+    EstimatedDuration = 120,
+    Plane = TestData.Airbusplane,
+    Airline = "yeey",
+    Departure = "Lagos",
+    EffectiveArrival = new DateTime(2022, 05, 01, 14, 10, 0),
+});
+
+
+
+
+
+
+
+
+
+context.SaveChanges();*/
+Console.WriteLine("-------------------------------------------------");
+Console.WriteLine(context.Flights.First().Plane.Capacity);

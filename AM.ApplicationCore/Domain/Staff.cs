@@ -20,7 +20,7 @@ namespace AM.ApplicationCore.Domain
         }
 
         public Staff(DateTime birthDate, string passportNumber, string emailAddress, string firstName, string lastName, string telNumber, ICollection<Flight> flights, DateTime employmentDate, string function, long salary)
-          : base(birthDate, passportNumber, emailAddress, firstName, lastName, telNumber, flights)
+          : base(birthDate, passportNumber, emailAddress, firstName, lastName, telNumber)
         {
             EmployementDate = employmentDate;
             Function = function;

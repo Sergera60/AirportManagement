@@ -13,7 +13,7 @@ namespace AM.ApplicationCore.Domain
         public PlaneType PlaneType { get; set; }
         public int Capacity { get; set; }
         public DateTime ManufactureDate { get; set; }        
-       public ICollection<Flight> flight { get; set; }
+       public virtual ICollection<Flight> flight { get; set; }
 
         public override string ToString()
         {
