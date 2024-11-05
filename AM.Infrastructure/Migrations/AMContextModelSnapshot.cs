@@ -58,7 +58,7 @@ namespace AM.Infrastructure.Migrations
 
                     b.HasIndex("PlaneId");
 
-                    b.ToTable("Flights");
+                    b.ToTable("Flights", (string)null);
                 });
 
             modelBuilder.Entity("AM.ApplicationCore.Domain.Passenger", b =>
@@ -94,7 +94,7 @@ namespace AM.Infrastructure.Migrations
 
                     b.HasKey("PassportNumber");
 
-                    b.ToTable("Passengers");
+                    b.ToTable("Passengers", (string)null);
 
                     b.HasDiscriminator().HasValue("Passenger");
 
@@ -184,7 +184,7 @@ namespace AM.Infrastructure.Migrations
 
             modelBuilder.Entity("AM.ApplicationCore.Domain.Passenger", b =>
                 {
-                    b.OwnsOne("AM.ApplicationCore.Domain.FullName", "FullName", b1 =>
+                    b.OwnsOne("AM.ApplicationCore.Domain.Passenger.FullName#AM.ApplicationCore.Domain.FullName", "FullName", b1 =>
                         {
                             b1.Property<string>("PassengerPassportNumber")
                                 .HasColumnType("nvarchar(7)");
@@ -202,7 +202,7 @@ namespace AM.Infrastructure.Migrations
 
                             b1.HasKey("PassengerPassportNumber");
 
-                            b1.ToTable("Passengers");
+                            b1.ToTable("Passengers", (string)null);
 
                             b1.WithOwner()
                                 .HasForeignKey("PassengerPassportNumber");

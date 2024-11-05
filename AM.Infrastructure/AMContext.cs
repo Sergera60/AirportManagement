@@ -43,6 +43,7 @@ namespace AM.Infrastructure
             // Apply the FlightConfiguration
             modelBuilder.ApplyConfiguration(new FlightConfiguration());
             modelBuilder.ApplyConfiguration(new PassengerConfiguration());
+            modelBuilder.Entity<Passenger>().OwnsOne(p => p.FullName);
 
             base.OnModelCreating(modelBuilder);
         }
