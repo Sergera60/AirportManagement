@@ -15,10 +15,10 @@ namespace AM.Infrastructure
 
         public DbSet<Flight> Flights { get; set; }
         public DbSet<Plane> Planes { get; set; }
-        public DbSet<Passenger> Passengers { get; set; }
-        public DbSet<Traveller> Travellers { get; set; }
-        public DbSet<Staff> Staff { get; set; }
-        public DbSet<Ticket> Tickets { get; set; }
+        public DbSet<Passenger> Passengers { get; set;}
+        public DbSet<Traveller> Travellers { get; set;}
+        public DbSet<Staff> Staff { get; set;}
+        public DbSet<Ticket> Tickets { get; set;}
       
 
 
