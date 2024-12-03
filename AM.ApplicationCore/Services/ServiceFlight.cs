@@ -14,5 +14,6 @@ namespace AM.ApplicationCore.Services
         public ServiceFlight(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
         }
+
     }
 }
