@@ -11,7 +11,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Destination" class="control-label"></label>
@@ -30,7 +30,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="FlightId" class="control-label"></label>
-                <input asp-for="FlightId" class="form-control" />
+                <input asp-for="FlightId" class="form-control" disabled/>
                 <span asp-validation-for="FlightId" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -45,7 +45,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="PlaneId" class="control-label"></label>
-                <input asp-for="PlaneId" class="form-control" />
+                <select asp-for="PlaneId" class="form-control" asp-items="ViewBag.PlaneId"></select>
                 <span asp-validation-for="PlaneId" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -54,8 +54,14 @@
                 <span asp-validation-for="Airline" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Pilot" class="control-label"></label>
+                <input asp-for="Pilot" name="PilotImage" type="file" class="form-control" />
+                <span asp-validation-for="FlightId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
+
         </form>
     </div>
 </div>

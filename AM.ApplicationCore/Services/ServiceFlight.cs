@@ -11,8 +11,14 @@ namespace AM.ApplicationCore.Services
 {
     public class ServiceFlight : Service<Flight>, IServiceFlight
     {
+
         public ServiceFlight(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
+
+        }
+        public IEnumerable<Flight> SortFlights()
+        {
+            return GetMany().OrderByDescending(f => f.FlightDate);
         }
 
     }

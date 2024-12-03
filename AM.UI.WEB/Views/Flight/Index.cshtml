@@ -10,6 +10,11 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+<form asp-action="Sort">
+    <fieldset>
+        <input type="submit" value="Sort" />
+    </fieldset>
+</form>
 <table class="table">
     <thead>
         <tr>
@@ -36,6 +41,9 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Airline)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pilot)
             </th>
             <th></th>
         </tr>
@@ -67,10 +75,15 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Airline)
             </td>
+               
+                <td>
+                    <img src="~/uploads/@item.Pilot" width="50" height="50">
+                </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                @Html.ActionLink("Edit", "Edit", new { id=item.FlightId}) |
+                  <!--  <a asp-controller="Flight" asp-action=" Details" asp-route-id="0@item.FlightId">Details</a> -->
+                @Html.ActionLink("Details", "Details", new {  id=item.FlightId  }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.FlightId  })
             </td>
         </tr>
 }

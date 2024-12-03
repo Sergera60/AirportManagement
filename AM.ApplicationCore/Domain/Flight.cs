@@ -20,7 +20,9 @@ namespace AM.ApplicationCore.Domain
         public int PlaneId { get; set; }
         public string Airline { get; set; }
 
-       // public ICollection<Passenger> passengers { get; set; }
+        public string Pilot { get; set; }
+
+        // public ICollection<Passenger> passengers { get; set; }
 
         public virtual ICollection<Ticket> Tickets { get; set; }
 
